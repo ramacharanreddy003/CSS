@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS SELECTOR</title>
+<style>
+		#para1		 {
+			 text-align: center;
+			 color: salmon;
+			 font-size: 1.5em;
+	    	
+	    	}
+
+	    p { font-size:20px; }	
+	    p.dotted {border-style:dotted;}
+	    p.dashed {border-style:dashed;}
+	    p.groove {border-style:groove;}
+
+	    p.a { border-style:dotted; 
+	    		outline: 2px solid green;
+	    		outline-offset:5px; 
+	    		background: beige;
+	    		font-size: 1.5vw;/*viewport width*/
+	    		}
+</style>
+
+
+				
+</head>
+<body>
+		<p id="para1">THE EVERY PARAGRAPH WILL BE AFFECTED BY THE STYLE</p>
+		<p id="para1">Me too!</p>
+		<p style="border:2px solid blue;">And me!</p>
+		  <center><p style="background-color:rgb(120,90,67);">The boy</p>
+		  	<p style="background-color:hsl(90,89%,67%);">The boy</p>
+		  	<p class="dotted">A CAR</p>
+		  	<p class="dashed">Bus</p>
+		  	<p class="groove">Bike</p>
+		  	<p class="a">THE CSS </p>
+
+		  	<i class="fas fa-heart"></i>
+</body> 
+</html>
